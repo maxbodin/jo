@@ -4,6 +4,7 @@ Women's Individual,archery,Archery,ARC,https://olympics.com/en/paris-2024/sports
 Men's Team,archery,Archery,ARC,https://olympics.com/en/paris-2024/sports/archery
 Women's Team,archery,Archery,ARC,https://olympics.com/en/paris-2024/sports/archery
 Mixed Team,archery,Archery,ARC,https://olympics.com/en/paris-2024/sports/archery
+Men's Team,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Men's All-Around,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Men's Floor Exercise,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Men's Pommel Horse,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
@@ -11,13 +12,12 @@ Men's Rings,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/
 Men's Vault,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Men's Parallel Bars,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Men's Horizontal Bar,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
-Men's Team,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
+Women's Team,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Women's All-Around,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Women's Vault,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Women's Uneven Bars,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Women's Balance Beam,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Women's Floor Exercise,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
-Women's Team,artistic-gymnastics,Artistic Gymnastics,GAR,https://olympics.com/en/paris-2024/sports/artistic-gymnastics
 Duet,artistic-swimming,Artistic Swimming,SWA,https://olympics.com/en/paris-2024/sports/artistic-swimming
 Team,artistic-swimming,Artistic Swimming,SWA,https://olympics.com/en/paris-2024/sports/artistic-swimming
 Men's 100m,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
@@ -67,7 +67,7 @@ Women's 20km Race Walk,athletics,Athletics,ATH,https://olympics.com/en/paris-202
 Women's 4 x 100m Relay,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
 Women's 4 x 400m Relay,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
 4 x 400m Relay Mixed,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
-Marathon Race Walk Mixed Relay,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
+Marathon Race Walk Relay Mixed,athletics,Athletics,ATH,https://olympics.com/en/paris-2024/sports/athletics
 Men's Singles,badminton,Badminton,BDM,https://olympics.com/en/paris-2024/sports/badminton
 Women's Singles,badminton,Badminton,BDM,https://olympics.com/en/paris-2024/sports/badminton
 Men's Doubles,badminton,Badminton,BDM,https://olympics.com/en/paris-2024/sports/badminton
@@ -75,8 +75,8 @@ Women's Doubles,badminton,Badminton,BDM,https://olympics.com/en/paris-2024/sport
 Mixed Doubles,badminton,Badminton,BDM,https://olympics.com/en/paris-2024/sports/badminton
 Men,basketball,Basketball,BKB,https://olympics.com/en/paris-2024/sports/basketball
 Women,basketball,Basketball,BKB,https://olympics.com/en/paris-2024/sports/basketball
-Men,3x3-basketball,Basketball 3x3,BK3,https://olympics.com/en/paris-2024/sports/3x3-basketball
-Women,3x3-basketball,Basketball 3x3,BK3,https://olympics.com/en/paris-2024/sports/3x3-basketball
+Men,3x3-basketball,3x3 Basketball,BK3,https://olympics.com/en/paris-2024/sports/3x3-basketball
+Women,3x3-basketball,3x3 Basketball,BK3,https://olympics.com/en/paris-2024/sports/3x3-basketball
 Men,beach-volleyball,Beach Volleyball,VBV,https://olympics.com/en/paris-2024/sports/beach-volleyball
 Women,beach-volleyball,Beach Volleyball,VBV,https://olympics.com/en/paris-2024/sports/beach-volleyball
 Men's 51kg,boxing,Boxing,BOX,https://olympics.com/en/paris-2024/sports/boxing
@@ -120,18 +120,18 @@ Men's Road Race,cycling-road,Cycling Road,CRD,https://olympics.com/en/paris-2024
 Women's Road Race,cycling-road,Cycling Road,CRD,https://olympics.com/en/paris-2024/sports/cycling-road
 Men's Individual Time Trial,cycling-road,Cycling Road,CRD,https://olympics.com/en/paris-2024/sports/cycling-road
 Women's Individual Time Trial,cycling-road,Cycling Road,CRD,https://olympics.com/en/paris-2024/sports/cycling-road
-Men's Team Sprint,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Men's Sprint,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Men's Keirin,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Men's Team Pursuit,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Men's Omnium,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Men's Madison,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Team Sprint,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Sprint,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Keirin,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Team Pursuit,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Omnium,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
-Women's Madison,cycling-track,Cycling Track ,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Team Sprint,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Sprint,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Keirin,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Team Pursuit,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Omnium,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Men's Madison,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Team Sprint,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Sprint,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Keirin,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Team Pursuit,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Omnium,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
+Women's Madison,cycling-track,Cycling Track,CTR,https://olympics.com/en/paris-2024/sports/cycling-track
 Women's 3m Springboard,diving,Diving,DIV,https://olympics.com/en/paris-2024/sports/diving
 Women's 10m Platform,diving,Diving,DIV,https://olympics.com/en/paris-2024/sports/diving
 Women's Synchronised 3m Springboard,diving,Diving,DIV,https://olympics.com/en/paris-2024/sports/diving
@@ -291,8 +291,8 @@ Women's Singles,tennis,Tennis,TEN,https://olympics.com/en/paris-2024/sports/tenn
 Men's Doubles,tennis,Tennis,TEN,https://olympics.com/en/paris-2024/sports/tennis
 Women's Doubles,tennis,Tennis,TEN,https://olympics.com/en/paris-2024/sports/tennis
 Mixed Doubles,tennis,Tennis,TEN,https://olympics.com/en/paris-2024/sports/tennis
-Men,trampoline-gymnastics,Trampoline,GTR,https://olympics.com/en/paris-2024/sports/trampoline-gymnastics
-Women,trampoline-gymnastics,Trampoline,GTR,https://olympics.com/en/paris-2024/sports/trampoline-gymnastics
+Men,trampoline-gymnastics,Trampoline Gymnastics,GTR,https://olympics.com/en/paris-2024/sports/trampoline-gymnastics
+Women,trampoline-gymnastics,Trampoline Gymnastics,GTR,https://olympics.com/en/paris-2024/sports/trampoline-gymnastics
 Women's Individual,triathlon,Triathlon,TRI,https://olympics.com/en/paris-2024/sports/triathlon
 Men's Individual,triathlon,Triathlon,TRI,https://olympics.com/en/paris-2024/sports/triathlon
 Mixed Relay,triathlon,Triathlon,TRI,https://olympics.com/en/paris-2024/sports/triathlon
