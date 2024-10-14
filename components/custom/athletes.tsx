@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { DataTable } from '@/app/athletes/data-table'
+import { DataTable } from '@/components/ui/data-table'
 import { columns } from '@/app/athletes/columns'
 
 

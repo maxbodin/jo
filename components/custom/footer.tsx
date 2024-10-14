@@ -1,3 +1,4 @@
+'use server'
 import * as React from 'react'
 
 export const Footer = () => {
