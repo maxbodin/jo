@@ -1,25 +1,14 @@
-import { promises as fs } from 'fs'
-import Papa from 'papaparse'
+import { readCsv } from '@/functions/readCsv'
 
+/**
+ * 
+ * @param request
+ * @constructor
+ */
 export async function GET(request) {
    try {
-      const fileContent: string = await fs.readFile(process.cwd() + '/data/Paris_2024/athletes.csv', 'utf8')
-
-      const parsedData = await new Promise((resolve, reject) => {
-         Papa.parse(fileContent, {
-            header: true,
-            dynamicTyping: true,
-            complete: (result) => {
-               resolve(result.data);
-            },
-            error: (error) => {
-               reject(error);
-            },
-         });
-      });
-
       // Group athletes by country
-      const groupedData = parsedData.reduce((acc, athlete) => {
+      const groupedData = (await readCsv(`${process.cwd()}/data/Paris_2024/athletes.csv`)).reduce((acc, athlete) => {
          const country = athlete.country;
          if (!acc[country]) {
             acc[country] = [];
