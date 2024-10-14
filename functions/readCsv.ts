@@ -1,25 +1,24 @@
-import { promises as fs } from 'fs'
-import Papa from 'papaparse'
 import { Athlete } from '@/interfaces/athlete'
+import Papa from 'papaparse'
+import { promises as fs } from 'fs'
 
+/**
+ * 
+ * @param filePath
+ */
 export const readCsv = async (filePath: string): Promise<Athlete[]> => {
+   const fileContent: string = await fs.readFile(filePath, 'utf8')
 
-}
-
-
-export async function getCsvFileLength(filePath: string): Promise<number> {
-   const fileContent: string = await fs.readFile(process.cwd() + filePath, 'utf8')
-
-   return new Promise((resolve, reject): void => {
+   return await new Promise((resolve, reject) => {
       Papa.parse(fileContent, {
          header: true,
          dynamicTyping: true,
-         complete: (result): void => {
-            resolve(result.data.length);
+         complete: (result) => {
+            resolve(result.data);
          },
-         error: (error): void => {
+         error: (error) => {
             reject(error);
-         }
+         },
       });
    });
 }
