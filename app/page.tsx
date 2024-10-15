@@ -1,36 +1,28 @@
-import * as React from 'react'
-import Image from 'next/image'
-import FilterBar from '@/components/custom/filterBar'
+import * as React from "react";
+import Image from "next/image";
+import FilterBar from "@/components/custom/filterBar/filterBar";
+import { Footer } from "@/components/custom/footer";
+import Athletes from "@/components/custom/athletes";
+import { FilterParams } from "@/interfaces/filterParams";
 
 
-export default async function HomePage({filterParams}: {
-   filterParams?: { year?: string; };
+export default async function HomePage({ searchParams }: {
+  searchParams?: FilterParams
 }) {
 
-   const year: string = filterParams?.year ?? '';
-
-   return (
-      <main className="flex min-h-screen flex-col items-center justify-between pt-20">
-         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex-col">
-            <Image
-               width="300"
-               height="300"
-               src="/images/logo.png"
-               title="Logo des Jeux Olympiques"
-               alt="Logo des Jeux Olympiques"
-               className={`w-full h-[5vh] object-contain`}
-            />
-            <h1>Jeux olympiques</h1>
-            <div className="flex flex-col w-full px-16 lg:px-20">
-               <h2>Classement par Athlètes / Pays / Pays et Athlètes pour Paris 2024</h2>
-               <FilterBar/>
-               {/*<Athletes />*/}
-
-         {/*      <Suspense >
-               <Footer />
-               </Suspense>*/}
-            </div>
-         </div>
-      </main>
-   )
+  return (
+    <main className="flex flex-col items-center justify-between pt-14 text-sm">
+        <Image
+          width="300"
+          height="300"
+          src="/images/logo.png"
+          title="Logo des Jeux Olympiques"
+          alt="Logo des Jeux Olympiques"
+          className="w-full h-[5vh] object-contain mb-10"
+        />
+        <FilterBar />
+        <Athletes filterParams={searchParams} />
+        <Footer />
+    </main>
+  );
 }
