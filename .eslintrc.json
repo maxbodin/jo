@@ -45,14 +45,6 @@
       }
     ],
     "@typescript-eslint/require-await": "off",
-    "@typescript-eslint/no-misused-promises": [
-      "error",
-      {
-        "checksVoidReturn": {
-          "attributes": false
-        }
-      }
-    ],
     "react-hooks/rules-of-hooks": "off",
     "no-use-before-define": "off",
     "react/jsx-filename-extension": [

@@ -1,8 +1,8 @@
-'use client'
+"use client";
 
-import { ColumnDef, flexRender, getCoreRowModel, useReactTable } from '@tanstack/react-table'
+import { ColumnDef, flexRender, getCoreRowModel, useReactTable } from "@tanstack/react-table";
 
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 interface DataTableProps<TData, TValue> {
    columns: ColumnDef<TData, TValue>[]
@@ -48,9 +48,9 @@ export function DataTable<TData, TValue>({
                         data-state={row.getIsSelected() && "selected"}
                      >
                         {row.getVisibleCells().map((cell) => (
-                           <TableCell key={cell.id}>
-                              {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                           </TableCell>
+                          <TableCell key={cell.id} className={cell.getValue()?.toString() === "0" || cell.getValue()?.toString() === undefined ? 'bg-red-500' : ""}>
+                            {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                          </TableCell>
                         ))}
                      </TableRow>
                   ))

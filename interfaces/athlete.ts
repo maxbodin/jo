@@ -1,6 +1,7 @@
-
-export interface Athlete {
+export type Athlete = {
+   id: string;
    code: string;
+   current: boolean;
    name: string;
    name_short: string;
    name_tv: string;
@@ -8,9 +9,9 @@ export interface Athlete {
    function: string;
    country_code: string;
    country: string;
-   country_full: string;
+   country_long: string;
    nationality: string;
-   nationality_full: string;
+   nationality_long: string;
    nationality_code: string;
    height: number;
    weight: number;
@@ -35,5 +36,5 @@ export interface Athlete {
    sporting_relatives: string;
    ritual: string;
    other_sports: string;
+   medals: string[];
 }
-
